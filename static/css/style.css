@@ -1,0 +1,104 @@
+html {
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-image: url(../img/burried.png);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#menu {
+    //min-width: 900px;
+    height: 100px;
+    width: 100%;
+    //background-color: rgba(51, 51, 51, 0.8);
+    margin: 0 auto 25px;
+}
+
+#menu_wrapper {
+    //width: 800px;
+    float: right;
+}
+
+.menu_elements {
+    display: table-cell;
+    min-width: 100px;
+    height: 80px;
+    padding: 10px;
+    //background-color: green;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.menu_elements a {
+    padding: 2px;
+}
+
+a:hover {
+    //text-decoration: underline;
+    border-bottom: 2px solid white;
+}
+
+#content {
+    //background-image: url(../img/bkg_steak.jpg);
+    //min-width: 900px;
+    min-height: 500px;
+    width: 60%;
+    //background-color: red;
+    margin: 0 auto;
+}
+
+#content p{
+    max-width: 80%;
+}
+/*
+#content_main div:first-child, #content_news div:first-child {
+    margin: 10px;
+    padding:20px;
+    display: block;
+    vertical-align: top;
+    background-color: rgba(51, 51, 51, 0.8);
+}*/
+
+#content_main {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 50px;
+}
+
+#content_main p, #content_main h1, #content_main h2, #content_main h3 {
+    max-width: 80%;
+    min-width: 640px;
+    padding: 0 100px 0;
+}
+
+#content_news {
+    width: 29%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.news_article {
+    //border-top: solid #252525 2px;
+    margin-top: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.centeredImage {
+    display: block;
+    margin: 100px auto;
+}
