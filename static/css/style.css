@@ -111,7 +111,7 @@ a {
 .team_member img {
     width: 200px;
     margin-top: 30px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .team_member p:first-of-type {
