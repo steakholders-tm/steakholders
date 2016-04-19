@@ -90,6 +90,7 @@ a {
 
 .team_member {
     width: 300px;
+    height: 350px;
     display: inline-block;
     padding: 0 15px;
     vertical-align: top;
